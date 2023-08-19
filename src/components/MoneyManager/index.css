@@ -1,0 +1,116 @@
+/* Write your CSS here */
+.bg-container {
+  display: flex;
+  justify-content: center;
+  min-height: 100px;
+  padding: 20px;
+}
+
+.welcome-bg-image {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+  background-size: cover;
+  height: 200px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  border-top-right-radius: 8px;
+  width: 800px;
+  flex-wrap: wrap;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 5px;
+}
+
+.balance-card-container {
+  display: flex;
+}
+.transaction-container {
+  display: flex;
+  justify-content: space-between;
+}
+.add-transaction-container {
+  display: flex;
+  flex-direction: column;
+  background-color: transparent;
+  border: 1px solid #cbd5e1;
+  width: 300px;
+  border-radius: 8px;
+  padding: 5px;
+  max-height: 300px;
+}
+.history-container {
+  display: flex;
+  flex-direction: column;
+  background-color: transparent;
+  border: 1px solid #cbd5e1;
+  width: 300px;
+  border-radius: 8px;
+  padding: 5px;
+}
+
+.button {
+  background-color: #0b69ff;
+  padding: 8px;
+  font-family: 'Roboto';
+  font-size: 14px;
+  color: #ffffff;
+}
+
+.row {
+  display: flex;
+  background-color: transparent;
+  border: 1px solid #cbd5e1;
+  border-radius: 5px;
+  height: 50px;
+  margin: 0px;
+  padding-top: 0px;
+}
+
+.ulContainer {
+  margin: 0px;
+  padding-left: 0px;
+}
+.para1 {
+  width: 90px;
+  padding-left: 10px;
+  font-size: 15px;
+  font-family: 'Roboto';
+  color: #1e293b;
+  font-weight: 600;
+}
+.para2 {
+  width: 90px;
+  font-size: 15px;
+  font-family: 'Roboto';
+  color: #1e293b;
+  font-weight: 600;
+}
+.para3 {
+  width: 90px;
+  font-size: 15px;
+  font-family: 'Roboto';
+  color: #1e293b;
+  font-weight: 600;
+}
+
+@media screen and (max-width: 600px) {
+  .transaction-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .welcome-bg-image {
+    width: 400px;
+  }
+  .history-container {
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+    border: 1px solid #cbd5e1;
+    width: 300px;
+    border-radius: 8px;
+    padding: 5px;
+    margin-top: 6px;
+  }
+}

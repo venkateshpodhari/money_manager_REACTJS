@@ -1,0 +1,92 @@
+/* Write your CSS here */
+.Money-card-container {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 0px;
+}
+.li1 {
+  list-style-type: none;
+  background-color: #ecfccb;
+  border: 1px solid #84cc16;
+  border-radius: 8px;
+  display: flex;
+  width: 250px;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.li2 {
+  list-style-type: none;
+  background-color: #cffafe;
+  border: 1px solid #06b6d4;
+  border-radius: 8px;
+  display: flex;
+  width: 250px;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.li3 {
+  list-style-type: none;
+  background-color: #ede9fe;
+  border: 1px solid #7c3aed;
+  border-radius: 8px;
+  display: flex;
+  width: 250px;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.img {
+  width: 50px;
+  height: 50px;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 600px) {
+  .Money-card-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 0px;
+    align-items: center;
+  }
+  .li1 {
+    list-style-type: none;
+    background-color: #ecfccb;
+    border: 1px solid #84cc16;
+    border-radius: 8px;
+    display: flex;
+    width: 250px;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 5px;
+  }
+  .li2 {
+    list-style-type: none;
+    background-color: #cffafe;
+    border: 1px solid #06b6d4;
+    border-radius: 8px;
+    display: flex;
+    width: 250px;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 5px;
+  }
+  .li3 {
+    list-style-type: none;
+    background-color: #ede9fe;
+    border: 1px solid #7c3aed;
+    border-radius: 8px;
+    display: flex;
+    width: 250px;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 5px;
+  }
+  .img {
+    width: 50px;
+    height: 50px;
+  }
+}
